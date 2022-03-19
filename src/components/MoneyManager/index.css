@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+}
+
+.welcome-header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.form-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid grey;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+select {
+  border: 1px solid grey;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.bottom-container {
+  display: flex;
+}
+
+.list-item-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+p {
+  margin-right: 10px;
+}
+.update-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.update-container {
+  border: 1px solid grey;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+h1 {
+  font-size: 20px;
+  height: 22px;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+    height: 22px;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .form-container {
+    width: 80%;
+  }
+  .update-container {
+    width: 80%;
+    padding: 20px;
+  }
+}

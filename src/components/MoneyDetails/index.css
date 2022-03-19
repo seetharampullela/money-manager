@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  width: 90%;
+  align-self: center;
+}
+.list-item {
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+  flex-grow: 1;
+}
+.image-details {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.expense-item {
+  background-color: #ede9fe;
+}
+.income-item {
+  background-color: #cffafe;
+}
+.balance-item {
+  background-color: #ecfccb;
+}
+
+@media screen and (max-width: 767px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+  }
+}
